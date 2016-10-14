@@ -11,14 +11,54 @@
 #include "TaskGroup.h"
 
 namespace ppp {
-  
-  template <typename T>
-  extern inline
-  void parallel_for(int64_t start, int64_t end, T* functor, int64_t grainsize=0)
-  {
-    // ASSIGNMENT: make this parallel via recursive divide and conquer
-    functor->calculate(start, end);
-  }
-}
+    
+template <typename T>
+class ForTask: public ppp::Task {
+public:
+	ForTask(int64_t start, int64_t end, T* functor, int64_t grainsize=0) {
+		m_start = start;
+		m_end = end;
+		m_func = functor;
+		m_grainsize = grainsize;
+	}
 
+	void execute() {
+        PPP_DEBUG_MSG("Split: [start: " + to_string(m_start) + ", end: " + to_string(m_end) + ", grain: " + to_string(m_grainsize) + "]");
+		if (m_end - m_start < m_grainsize) {
+			m_func->calculate(m_start, m_end);
+            return;
+		}
+        
+		int64_t diff = (m_end - m_start)/2;
+        int64_t new_start = m_start + diff;
+        int64_t new_end = m_end - diff;
+        
+        PPP_DEBUG_MSG("Split: [start: " + to_string(diff) + "]");
+        ppp::TaskGroup tg;
+		ForTask f1(m_start, new_start, m_func, m_grainsize);
+		ForTask f2(new_end, m_end, m_func, m_grainsize);
+		tg.spawn(f1);
+		tg.spawn(f2);
+		tg.wait();
+	}
+private:
+	T* m_func;
+	int64_t m_start;
+	int64_t m_end;
+	int64_t m_grainsize;
+};
+
+template <typename T>
+extern inline
+	void parallel_for(int64_t start, int64_t end, T* functor, int64_t grainsize=0) {
+	assert(end >= start);
+	// ASSIGNMENT: make this parallel via recursive divide and conquer
+	if (grainsize == 0) {
+		grainsize = (end-start+1) / (get_thread_count()*4);
+	}
+
+	ppp::ForTask<T> t(start, end, functor, grainsize);
+	t.execute();
+}
+}
 #endif
