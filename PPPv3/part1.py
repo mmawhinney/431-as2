@@ -4,20 +4,18 @@ import csv
 import string
 import re
 import subprocess
+import sys
 
 def main():
-	runSort();
-	openCsv();
-	readFromFile()
+	filename = sys.argv[1]
+	output = sys.argv[2]
+	openCsv(output);
+	readFromFile(filename, output)
 
-def runSort():
-	with open("part1_output.txt", "w") as f:
-		subprocess.call(["./driver-sort", "--particles", "40000000", "--threads", "1", "--grainsize", "10000", "--trials", "5"], stdout=f)
-
-
-def readFromFile():
+def readFromFile(filename, output):
 	removeValues = ["threads", "grainsize", "trial", "particles", "seconds", "host", " user"]
-	file = open("./part1_output.txt", "r")
+	print(filename)
+	file = open(filename, "r")
 	useableParts = []
 	for line in file:
 		if "average" in line:
@@ -34,18 +32,16 @@ def readFromFile():
 						pass
 				print innerParts
 				useableParts.append(innerParts[0])		
-			writeToCsv(useableParts)
+			writeToCsv(useableParts, output)
 			useableParts = []
-		# for innerPart in innerParts:
-		# 	print(innerPart)
 
-def openCsv():
-	with open("part1.csv", "w") as csvfile:
+def openCsv(output):
+	with open(output, "w") as csvfile:
 		writer = csv.writer(csvfile, delimiter=",")
 		writer.writerow(["user", "host", "threads", "particles", "grainsize", "seconds"])
 		
-def writeToCsv(parts):
-	with open("part1.csv", "a") as csvfile:
+def writeToCsv(parts, output):
+	with open(output, "a") as csvfile:
 		writer = csv.writer(csvfile, delimiter=",")
 		writer.writerow(parts)
 
