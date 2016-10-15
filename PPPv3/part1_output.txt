@@ -1,0 +1,138 @@
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10, seconds: 4.87708
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10, seconds: 4.73585
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10, seconds: 4.88046
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10, seconds: 4.85719
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10, seconds: 4.80227
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10, seconds: 4.83057
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 40000000, seconds: 3.84971
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 40000000, seconds: 3.87141
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 40000000, seconds: 3.89828
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 40000000, seconds: 3.91086
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 40000000, seconds: 3.90829
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 40000000, seconds: 3.88771
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 35000000, seconds: 3.87831
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 35000000, seconds: 3.89262
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 35000000, seconds: 3.91338
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 35000000, seconds: 3.76417
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 35000000, seconds: 3.70102
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 35000000, seconds: 3.8299
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 30000000, seconds: 3.61615
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 30000000, seconds: 3.70114
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 30000000, seconds: 3.66622
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 30000000, seconds: 3.6748
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 30000000, seconds: 3.70023
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 30000000, seconds: 3.67171
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 25000000, seconds: 3.7239
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 25000000, seconds: 3.63203
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 25000000, seconds: 3.64067
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 25000000, seconds: 3.66964
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 25000000, seconds: 3.63563
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 25000000, seconds: 3.66037
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 20000000, seconds: 3.68811
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 20000000, seconds: 3.66714
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 20000000, seconds: 3.66036
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 20000000, seconds: 3.63077
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 20000000, seconds: 3.63239
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 20000000, seconds: 3.65575
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 15000000, seconds: 3.75738
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 15000000, seconds: 3.76192
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 15000000, seconds: 3.75417
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 15000000, seconds: 3.74776
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 15000000, seconds: 3.64875
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 15000000, seconds: 3.734
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10000000, seconds: 3.68389
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10000000, seconds: 3.62494
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10000000, seconds: 3.7385
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10000000, seconds: 3.71503
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10000000, seconds: 3.68099
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10000000, seconds: 3.68867
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 5000000, seconds: 3.70184
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 5000000, seconds: 3.70181
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 5000000, seconds: 3.71022
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 5000000, seconds: 3.69579
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 5000000, seconds: 3.6119
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 5000000, seconds: 3.68431
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 2000000, seconds: 3.78121
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 2000000, seconds: 3.66381
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 2000000, seconds: 3.83871
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 2000000, seconds: 3.77065
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 2000000, seconds: 3.64881
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 2000000, seconds: 3.74064
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 1000000, seconds: 3.78971
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 1000000, seconds: 3.70225
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 1000000, seconds: 3.83308
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 1000000, seconds: 3.78528
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 1000000, seconds: 3.75678
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 1000000, seconds: 3.77342
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 500000, seconds: 3.77879
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 500000, seconds: 3.76679
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 500000, seconds: 3.87354
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 500000, seconds: 3.87829
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 500000, seconds: 3.7656
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 500000, seconds: 3.8126
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 250000, seconds: 3.79342
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 250000, seconds: 3.7123
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 250000, seconds: 3.8129
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 250000, seconds: 3.83675
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 250000, seconds: 3.74601
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 250000, seconds: 3.78028
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 100000, seconds: 3.87226
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 100000, seconds: 3.76994
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 100000, seconds: 3.94178
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 100000, seconds: 3.86579
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 100000, seconds: 3.80403
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 100000, seconds: 3.85076
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10000, seconds: 3.91811
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10000, seconds: 3.83136
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10000, seconds: 3.96324
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10000, seconds: 3.9485
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10000, seconds: 3.82517
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10000, seconds: 3.89727
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 5000, seconds: 3.93549
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 5000, seconds: 3.81903
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 5000, seconds: 4.0172
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 5000, seconds: 3.96676
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 5000, seconds: 3.93495
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 5000, seconds: 3.93469
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 2500, seconds: 4.02271
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 2500, seconds: 3.92827
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 2500, seconds: 4.19258
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 2500, seconds: 4.16592
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 2500, seconds: 4.0054
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 2500, seconds: 4.06298
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 1000, seconds: 4.04759
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 1000, seconds: 3.97672
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 1000, seconds: 4.09602
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 1000, seconds: 4.09921
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 1000, seconds: 3.95864
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 1000, seconds: 4.03564
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 500, seconds: 4.10252
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 500, seconds: 3.97895
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 500, seconds: 4.09132
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 500, seconds: 4.09983
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 500, seconds: 4.00985
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 500, seconds: 4.05649
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 250, seconds: 4.12152
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 250, seconds: 4.13847
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 250, seconds: 4.12431
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 250, seconds: 4.13949
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 250, seconds: 4.08193
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 250, seconds: 4.12114
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 100, seconds: 4.2366
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 100, seconds: 4.10495
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 100, seconds: 4.16386
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 100, seconds: 4.21588
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 100, seconds: 4.10286
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 100, seconds: 4.16483
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 50, seconds: 4.29654
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 50, seconds: 4.23436
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 50, seconds: 4.35207
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 50, seconds: 4.32328
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 50, seconds: 4.32049
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 50, seconds: 4.30535
+trial: 1, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10, seconds: 5.02934
+trial: 2, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10, seconds: 4.79322
+trial: 3, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10, seconds: 4.88403
+trial: 4, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10, seconds: 4.92783
+trial: 5, user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10, seconds: 4.82499
+average:  user: atlee, host: <unknown>, threads: 1, particles: 40000000, grainsize: 10, seconds: 4.89188
