@@ -18,7 +18,7 @@ namespace ppp {
 
   void TaskGroup::spawn(Task& t) {
     assert(g_queues_ptr != NULL);
-    TaskQueue& queue = g_queues_ptr[0];
+    TaskQueue& queue = g_queues_ptr[get_thread_id()];//g_queues_ptr[0];  // ASSIGNMENT: use per-thread task queue with "get_thread_id()"
     m_wait_counter.fetch_and_inc();
     t.setCounter(&m_wait_counter);
     queue.enqueue(&t);
@@ -26,13 +26,29 @@ namespace ppp {
   
   void process_tasks(const atomic<int>* counter)
   {
-    TaskQueue& queue = g_queues_ptr[0];
+    TaskQueue& queue = g_queues_ptr[get_thread_id()];//g_queues_ptr[0];  // ASSIGNMENT: use per-thread task queue with "get_thread_id()"
 
     while (counter->get() != 0) {
       PPP_DEBUG_EXPR(queue.size());
 
       // Dequeue from local queue
       Task* task = queue.dequeue();
+
+      // ASSIGNMENT: add task stealing
+      if (task == NULL) {
+        for(int i = 0; i < get_thread_count(); i++) {
+          TaskQueue& secondQueue = g_queues_ptr[i];
+          if(&secondQueue != &queue) {
+            if(secondQueue.size() > 0) {
+              Task* taskToSteal = secondQueue.steal();
+              if(taskToSteal != NULL) {
+                task = taskToSteal;
+                break;
+              }
+            }
+          }
+        }
+      }
 
       if (task != NULL) {
         task->execute(); // overloaded method

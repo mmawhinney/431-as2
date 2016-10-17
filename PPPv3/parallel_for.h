@@ -29,14 +29,11 @@ public:
             return;
 		}
         
-		int64_t diff = (m_end - m_start)/2;
-        int64_t new_start = m_start + diff;
-        int64_t new_end = m_end - diff;
+		int64_t middle = (m_start + m_end) / 2;
         
-        PPP_DEBUG_MSG("Split: [start: " + to_string(diff) + "]");
         ppp::TaskGroup tg;
-		ForTask f1(m_start, new_start, m_func, m_grainsize);
-		ForTask f2(new_end, m_end, m_func, m_grainsize);
+		ForTask f1(m_start, middle, m_func, m_grainsize);
+		ForTask f2(middle, m_end, m_func, m_grainsize);
 		tg.spawn(f1);
 		tg.spawn(f2);
 		tg.wait();
