@@ -1,0 +1,54 @@
+#!/bin/bash
+
+make reduce
+./driver-reduce --particles 500000000 --trials 3 --grainsize 500000000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 250000000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 100000000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 50000000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 25000000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 10000000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 5000000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 2500000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 1000000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 500000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 250000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 100000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 50000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 25000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 10000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 5000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 2500 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 1000 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 500 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 250 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 100 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 50 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 25 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 10 --threads 1 >> reduce_big_t1.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 5 --threads 1 >> reduce_big_t1.txt
+
+./driver-reduce --particles 500000000 --trials 3 --grainsize 500000000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 250000000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 100000000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 50000000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 25000000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 10000000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 5000000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 2500000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 1000000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 500000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 250000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 100000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 50000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 25000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 10000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 5000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 2500 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 1000 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 500 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 250 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 100 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 50 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 25 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 10 --threads 4 >> reduce_big_t4.txt
+./driver-reduce --particles 500000000 --trials 3 --grainsize 5 --threads 4 >> reduce_big_t4.txt
